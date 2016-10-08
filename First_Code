@@ -1,0 +1,25 @@
+cd Music
+
+ls | wc -l
+
+declare -i y=10
+
+# echo "y = $y"
+
+fullPath="$PWD"
+echo "$PWD"
+
+for d in * ; 
+do
+    $myPath = "$fullPath" + "$" + "$d"
+    echo "$d"
+    echo "$myPath"
+done
+
+
+
+
+ for i in $( ls ); 
+do
+            echo item: $i
+done 
